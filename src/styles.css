@@ -1,0 +1,82 @@
+nav {
+  height: 20vh;
+  width: 100%;
+  background-color: #a5ff00;
+  color: #000;
+}
+nav:hover {
+  box-shadow: 0 0 0 5px #2ce95b, 0 0 25px #42e92c, 0 0 50px #42e92c,
+    0 0 100px #42e93c;
+}
+.navitems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.navitems h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 50px;
+}
+.navitems button {
+  width: 30%;
+  height: 10vh;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  background: rgb(51, 10, 90);
+  color: rgb(242, 248, 243);
+  font-family: serif;
+  font-size: 20px;
+  margin: auto 0px;
+  text-decoration: none;
+  color: #2196f3;
+  font-size: 16px;
+  transition: 0.2s;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  overflow: hidden;
+  border-top: 2px solid #255784;
+  border-radius: 15px;
+}
+.fetchbtn:hover {
+  text-decoration: none;
+  color: #255784;
+  background: #250952;
+  box-shadow: 0 0 0 5px #2196f3, 0 0 25px #2196f3, 0 0 50px #2196f3,
+    0 0 100px #2196f3;
+  transition-delay: 0.2s;
+}
+.userdatacontainer {
+  width: 100%;
+  height: fit-content;
+  background-color: rgb(172, 64, 82);
+}
+#main {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+.name:hover {
+  color: rgb(108, 226, 177);
+}
+.avatar {
+  border-radius: 30%;
+}
+.profile_cont {
+  border-radius: 50%;
+  background-color: rgb(19, 2, 46);
+  color: white;
+  margin: 10px;
+  padding: 20px;
+  width: 30%;
+  text-align: center;
+  transition: transform ease 0.2s;
+  opacity: 0.8;
+  margin-top: 0vh;
+}
+.profile_cont:hover {
+  transform: scale(1.2);
+  opacity: 1;
+  box-shadow: 0 0 0 5px #2196f3, 0 0 25px #2196f3, 0 0 50px #2196f3,
+    0 0 100px #2196f3;
+}
